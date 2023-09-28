@@ -24,6 +24,6 @@ jobs:
         with:
           files: |
             tillpayments.zip
-          tag: 1.10.3
+          tag_name: "master_release"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
